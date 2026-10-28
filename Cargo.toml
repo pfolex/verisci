@@ -1,0 +1,11 @@
+[package]
+name = "verisci"
+version = "0.1.0"
+edition = "2021"
+description = "Universal Scientific & Formal Verification Cartridges (Logic, Silicon, Systems, Matter)"
+license = "Apache-2.0"
+
+[lib]
+name = "verisci"
+path = "rust/src/lib.rs"
+crate-type = ["rlib"]
